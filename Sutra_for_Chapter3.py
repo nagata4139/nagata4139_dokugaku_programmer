@@ -393,6 +393,7 @@ elif home == "中国":
 else:
     print("Hello,World!")
 
+# P42
 # http://tinyurl.com/zdvuuhs
 home = "火星"
 if home == "アメリカ":
@@ -405,3 +406,23 @@ elif home == "メキシコ":
     print("Hello,Mexico!")
 else:
     print("Hello,World!")
+
+# http://tinyurl.com/hzyxgf4
+x = 100
+if x == 10:
+    print("10!")
+elif x == 20:
+    print("20!")
+else:
+    print("分かりません！")
+
+if x == 100:
+    print("xは100！")
+
+if x == 100:
+    print("xは100！")
+
+if x % 2 == 0:
+    print("xは偶数！")
+else:
+    print("xは奇数！")
