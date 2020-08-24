@@ -7,7 +7,7 @@ for i in range(100):
 # P17
 # http://tinyurl.com/h4qntgk
 
-fot i in range(100):
+for i in range(100):
     print("Hello,World!")
 
 # P18
@@ -78,7 +78,7 @@ for i in range(100):
 "Hello,World!"
 
 # P23
-http://tinyurl.com/heaxhsh
+# http://tinyurl.com/heaxhsh
 
 'Hello,World!'
 
@@ -87,3 +87,4 @@ http://tinyurl.com/heaxhsh
 2.2 + 2.2
 
 # http://tinyurl.com/jyllj2k
+
