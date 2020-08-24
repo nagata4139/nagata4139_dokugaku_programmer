@@ -278,6 +278,42 @@ y = 2
 2 != 2
 
 # P36
-# http://tinyurl..com/zdqghb2
+# http://tinyurl.com/zdqghb2
 
 1 == 1 and 2 == 2
+
+# http://tinyurl.com/zkp2jzy
+
+1 ==2 and 2 == 2
+
+# http://tinyurl.com/honkev6
+
+1 == 2 and 2 == 1
+
+# P37
+# http://tinyurl.com/zjrxxrc
+
+2 == 1 and 1 == 1
+
+# http://tinyurl.com/zpvk56u
+
+1 == 1 and 10 != 2 and 2 < 10
+
+# http://tinyurl.com/hosuh7c
+
+1 ==1 or 1 ==2
+
+# http://tinyurl.com/zj6q8h9
+
+1 == 1 or 2 == 2
+
+# http://tinyurl.com/j8ngufo
+
+1 ==2 or 2 == 1
+
+
+# http://tinyurl.com/z728zxz
+
+2 ==1 or 1 == 2
+
+# P38
