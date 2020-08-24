@@ -181,3 +181,103 @@ my_float = 2.2
 my_boolean = True
 
 # P28
+# http://tinyurl.com/j7c2npf
+
+print("Hello,World!")
+
+# P29
+my_string = "Hello,World.
+
+# P30
+# http://tinyurl.com/jxpztcx
+
+# This code has an error
+
+10 / 0
+
+# http://tinyurl.com/gtp6amr
+
+# This code has an error
+
+y = 2
+
+        x = 1
+
+# P31
+# http://tinyurl.com/grdc195
+
+13 // 5
+
+# http://tinyurl.com/zsqwukd
+
+13 % 5
+
+# http://tinyurl.com/jerpe6u
+
+# 偶数
+12 % 2
+
+# P32
+# http://tinyurl.com/gkudhcr
+
+# 奇数
+11 % 2
+
+# http://tinyurl.com/hh9fqzy
+
+14 // 3
+
+# http://tinyurl.com/zlkjjdp
+14 / 3
+
+# http://tinyurl.com/h8vuwd4
+
+2 ** 3
+
+# P33
+# http://tinyurl.com/hgjyj7o
+
+2 + 2 * 2
+
+# http://tinyurl.com/hsd7rcz
+
+(2 + 2) * 2
+
+# P34
+# http://tinyurl.com/jm7cxzp
+
+100 > 10
+
+# http://tinyurl.com/gsdhr8q
+
+100 < 10
+
+# http://tinyurl.com/jy2oefs
+
+2 >= 2
+
+# P35
+# http://tinyurl.com/jk599re
+
+2 <= 2
+
+# http://tinyurl.com/j2tsz9u
+
+2 == 2
+
+# http://tinyurl.com/j5mr2q2
+
+1 == 2
+
+# http://tinyurl.com/gsw3zoe
+
+1 != 2
+
+# http://tinyurl.com/z7pffk3
+
+2 != 2
+
+# P36
+# http://tinyurl..com/zdqghb2
+
+1 == 1 and 2 == 2
