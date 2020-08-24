@@ -114,3 +114,70 @@ None
 
 2 * 2
 
+# 25
+# 実行しないでください
+
+int a;
+a = 144;
+
+# http://tinyurl.com/hw64rr
+
+b = 100
+b
+
+# http://tinyurl.com/hw97que
+
+x = 100
+x
+
+x = 200
+x
+
+# P26
+# http://tinyurl.com/z8hv5j5
+
+x = 10
+y = 10
+z = x + y
+z
+x = x + 1
+x
+
+# http://tinyurl.com/zvz786
+
+x = 10
+x = x + 1
+x
+
+# http://tinyurl.com/gmuzdr9
+
+x = 10
+x = x - 1
+x
+
+# P27
+# http://tinyurl/zdva5wq
+
+x = 10
+x += 1
+x
+
+# http://tinyurl.com/jqw4m5r
+
+x = 10
+x -= 1
+x
+
+# http://tinyurl.com/jsyqqcy
+
+hi = "Hello,World!"
+
+# http://tinyurl.com/h47ty49
+
+my_float = 2.2
+
+# http://tinyurl.com/hx9xluq
+
+my_boolean = True
+
+# P28
