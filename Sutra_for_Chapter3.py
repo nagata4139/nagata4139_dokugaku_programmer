@@ -381,3 +381,27 @@ if x == 10:
         print(x + y)
 
 # http://tinyurl.com/jpr265j
+home = "タイ"
+if home == "日本":
+    print("Hello,Japan!")
+elif home == "タイ":
+    print("Hello,Thailand!")
+elif home == "インド":
+    print("Hello,India!")
+elif home == "中国":
+    print("Hello,China!")
+else:
+    print("Hello,World!")
+
+# http://tinyurl.com/zdvuuhs
+home = "火星"
+if home == "アメリカ":
+    print("Hello,America!")
+elif home == "カナダ":
+    print("Hello,Canada!")
+elif home == "タイ":
+    print("Hello,Thailand!")
+elif home == "メキシコ":
+    print("Hello,Mexico!")
+else:
+    print("Hello,World!")
