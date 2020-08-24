@@ -419,10 +419,48 @@ else:
 if x == 100:
     print("xは100！")
 
-if x == 100:
-    print("xは100！")
-
 if x % 2 == 0:
     print("xは偶数！")
 else:
     print("xは奇数！")
+
+# P43
+# http://tinyurl.com/jrowero
+
+print("Hello,World!")
+
+# http://tinyurl.com/h2y549y
+
+2 + 2
+
+# P44
+# http://tinyurl.com/zfz3eel
+
+for i in range(100):
+    print("Hello,World!")
+
+# P45
+# http://tinyurl.com/hzyxgf4
+
+x = 100
+if x == 10:
+    print("10!")
+elif x == 20:
+    print("20!")
+else:
+    print("分かりません！")
+
+if x == 100:
+    print("xは100！")
+
+if x % 2 == 0
+    print("xは偶数！")
+else:
+    print("xは奇数！")
+
+# http://tinyurl.com/zlgcwoc
+
+print("Michael")
+
+
+print("Jordan")
