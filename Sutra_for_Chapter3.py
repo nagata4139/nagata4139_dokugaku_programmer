@@ -68,9 +68,9 @@ for i in range(100):
 # これは JavaScript　で書いたプログラムです。
 # Python　では動作しません。
 
-# for (i = 0; i < 100; i++) {
-#     console.log("Hello,World!");
-# }
+for (i = 0; i < 100; i++) {
+    console.log("Hello,World!");
+}
 
 # P22
 # http://tinyurl.com/hh5kjwp
@@ -87,4 +87,30 @@ for i in range(100):
 2.2 + 2.2
 
 # http://tinyurl.com/jyllj2k
+
+True
+
+# http://tinyurl.com/jzgsxz4
+
+False
+
+# P24
+
+None
+
+# http://tinyurl.com/zs65dp8
+
+2 + 2
+
+# http://tinyurl.com/gs9nwrw
+
+2 - 2
+
+# http://tinyurl.com/hasegvj
+
+4 / 2
+
+# http://tinyurl.com/z8okq3
+
+2 * 2
 
