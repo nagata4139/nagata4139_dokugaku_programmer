@@ -317,3 +317,67 @@ y = 2
 2 ==1 or 1 == 2
 
 # P38
+# http://tinyurl.com/ja9mech
+
+1 == 1 or 1 == 2 or 1 == 3
+
+# http://tinyurl.com/h45eq6v
+
+not 1 == 1
+
+# http://tinyurl.com/gsqj6og
+
+not 1 == 2
+
+# 実行しないでください
+
+もし（式）なら
+    （コード群1）
+そうでなければ
+    （コード群2）
+
+# P39
+# http://tinyurl.com/htvy6g3
+
+home = "アメリカ"
+if home == "アメリカ":
+    print("Hello,America!")
+else:
+    print("Hello,World!")
+
+# P40
+# http://tinyurl.com/jytyg5x
+
+home = "日本"
+if home == "アメリカ":
+    print("Hello,America!")
+else:
+    print("Hello,World!")
+
+# http://tinyurl.com/jyg7dd2
+
+home = "アメリカ"
+if home = "アメリカ":
+    print("Hello,America!")
+
+# http://tinyurl.com/z24ckye
+
+x = 2
+if x == 2:
+    print("数値は2です。")
+if x % 2 == 0:
+    print("数値は偶数です。")
+if x % 2 != 0:
+    print("数値は奇数です。")
+
+# P41
+# http://tinyurl.com/zrodgne
+
+x = 10
+y = 11
+
+if x == 10:
+    if y == 11:
+        print(x + y)
+
+# http://tinyurl.com/jpr265j
