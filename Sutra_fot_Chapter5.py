@@ -179,3 +179,26 @@ facts["Bill"]
 facts["founded"] = 1776
 # キーで参照
 facts["faunded"]
+
+# P81
+http://tinyurl.com/hgf9vmp
+
+bill = {"Bill Gates": "charitable"}
+"Bill Gates" in bill
+
+# http://tinyurl.com/he3g993
+
+bill = {"Bill Gates": "charitable"}
+"Bill Doors" not in bill
+
+# P82
+# http://tinyurl.com/htrd91j
+
+books = {"Dracula": "Storker",
+         "1984": "Orwell"
+         "The Trial": "Kafka"}
+
+del books["The Trial"]
+
+books
+
