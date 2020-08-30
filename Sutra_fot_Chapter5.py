@@ -74,5 +74,27 @@ colors2 = ["orange", "pink", "yellow"]
 colors1 + colors2
 
 # http://tinyurl.com/z4fnv39
+
 colors = ["blue","green","yellow"]
 "green" in colors
+
+# P75
+# http://tinyurl.com/jqzk8pj
+
+colors = ["blue", "green", "yellow"]
+"black" not in colors
+
+# http://tinyurl.com/hhx6rx4
+
+len(colors)
+
+# http://tinyurl.com/gq7yjr7
+
+colors = ["purple", "orange", "green"]
+
+guess = input("何色でしょう？（入力してください）:")
+
+if guess in colors
+    print("当たり！")
+else:
+    print("ハズレ！また挑戦してね。")
