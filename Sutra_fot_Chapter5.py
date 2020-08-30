@@ -98,3 +98,31 @@ if guess in colors
     print("当たり！")
 else:
     print("ハズレ！また挑戦してね。")
+
+# P76
+# http://tinyurl.com/zo88eal
+
+my_tuple = ()
+my_tuple
+
+# http://tinyurl.com/zm3y26j
+my_tuple = ()
+my_tuple
+
+# http://tinyurl.com/zlwwfe3
+
+rndm = ("M. Jackson", 1958, True)
+rndm
+
+# P77
+# http://tinyurl.com/j8mca8o
+
+# これはタプルです
+("self_taught")
+
+# これはタプルではなく数値演算に使うカッコです
+(9) + 1
+
+# http://tinyurl.com/z3x34nk
+
+dys = ("1984", "Brave New World", "Fahrenheit")
