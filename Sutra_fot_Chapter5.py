@@ -125,4 +125,57 @@ rndm
 
 # http://tinyurl.com/z3x34nk
 
-dys = ("1984", "Brave New World", "Fahrenheit")
+dys = ("1984", "Brave New World", "Fahrenheit 451")
+dys[1] = "Handmaid's Tale"
+
+# http://tinyurl.com/z3x34nk
+
+dys = ("1984", "Brave New World", "Fahrenheit 451")
+dys[2]
+
+# http://tinyurl.com/j3bse17
+
+dys = ("1984", "Brave New World", "Fahrenheit 451")
+"1984" in dys
+
+# P78
+# http://tinyurl.com/jpdjjv9
+
+dys = ("1984", "Brave New World", "Fahrenheit 451")
+"Handmaid's Tale" not in dys
+
+# P79
+# http://tinyurl.com/zfn6jmw
+
+my_dict = dict()
+my_dict
+
+# http://tinyurl.com/jfgemf2
+
+my_dict = {}
+my_dict
+
+# P80
+# http://tinyurl.com/hplqc3
+fruits = {"Apple": "Red",
+          "Banana": "Yellow"}
+fruits
+
+# http://tinyurll.com/grc281h
+
+facts = dict()
+
+# バリューを追加
+facts["code"] = "fun"
+# キーで参照
+facts["code"]
+
+# バリューを追加
+facts["Bill"] = "Gates"
+# キーで参照
+facts["Bill"]
+
+# バリューを追加
+facts["founded"] = 1776
+# キーで参照
+facts["faunded"]
