@@ -202,3 +202,49 @@ del books["The Trial"]
 
 books
 
+# http://tinyurl.com/gnjvep7
+
+songs = {"1": "fun",
+         "2": "blue",
+         "3": "me",
+         "4": "floor",
+         "5": "live"
+         }
+
+n = input("数字を入力してください：")
+if n in songs:
+    song = songs[n]
+    print(song)
+else:
+    print("見つかりません。")
+
+# http://tinyurl.com/gops9fz
+
+lists = []
+
+rap = ["カニエ・ウェスト", "ジェイ・z", "エミネム", "ナズ"]
+rock = ["ボブ・ディラン", "ザ・ビートルズ", "レッドツェッペリン"]
+djs = ["ゼッズ・デッド", "ティエスト"]
+
+lists.append(rap)
+lists.append(rock)
+lists.append(djs)
+
+print(lists)
+
+# P84
+# http://tinyurl.comgu4mudk
+
+# 前のコードの続き
+
+rap = lists[0]
+print(rap)
+
+# http://tinyurl.com/hdtosm2
+
+# 前のコードの続き
+
+rap = lists[0]
+rap.append("ケンドリック・ラマー")
+print(rap)
+print(lists)
