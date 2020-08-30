@@ -248,3 +248,51 @@ rap = lists[0]
 rap.append("ケンドリック・ラマー")
 print(rap)
 print(lists)
+
+# P85
+# http://tinyurl.com/z9dhema
+
+locations = []
+
+la = (34.0522, 188.2437)
+chicago = (41.8781, 87.6298)
+
+locations.append(la)
+locations.append(chicago)
+
+print(locations)
+
+# http://tinyurl.com/ht7gpsd
+
+eights = ["Edgar Allan poe", "Charles Dickens"]
+nines = ["Heming way", "Fitsgerald", "Orwell"]
+
+authers = (eights, nines)
+print(authers)
+
+# http://tinyurl.com/h8ck5er
+
+bday = {"Heming way": "7.21.1899",
+        "Fitzgerald": "9.24.1896"}
+
+my_list = [bday]
+print(my_list)
+my_tuple = (bday,)
+print(my_tuple)
+
+# P86
+
+ny = {
+    "座標": (40.7128, 74.0059)
+
+    "セレブ": [
+        "ウッディ・アレン",
+        "ジェイ・z",
+        "ケヴィン・ベーコン",
+    ],
+
+    "事実": {
+        "州": "ニューヨーク"
+        "国": "アメリカ",
+    }
+}
