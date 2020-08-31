@@ -85,10 +85,56 @@ print("Happy New Year!")
 # P110
 # http://tinyurl.com/hcwvfk8
 
-while True:
-    print("Hello World!")
+# while True:
+#     print("Hello World!")
 
 # http://tinyurl.com/zrdh88c
 
 for i in range(0, 100):
     print(i)
+
+# http://tinyurl.com/zhxf3uk
+
+
+for i in range(0, 100):
+    print(i)
+    break
+
+# http://tinyurl.com/jmak8tr
+
+qs = ["What is your name?",
+      "What is your fav. color?",
+      "What is your quest?"]
+n = 0
+while True:
+    print("Type q to quit")
+    a = input(qs[n])
+    if a == "q":
+        break
+    n = (n + 1) % 3
+
+# P112
+# http://tinyurl.com/hflun4p
+
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+
+# http://tinyurl.com/gp7forl
+
+i = 1
+while i <= 5:
+    if i == 3:
+        i += 1
+        continue
+    print(i)
+    i += 1
+
+# http://tinyurl.com/gqjxjtq
+
+for i in range("1, 3")
+    print(i)
+    for letter in ["a", "b", "c"]:
+        print(letter)
+
