@@ -28,3 +28,40 @@ people = {"G. Bluth II": "A. Development",
 for character in people:
     print(character)
 
+# http://tinyurl.com/j8wvp8c
+
+tv = ["GOT", "Narcos", "Vice"]
+i = 0
+for show in tv:
+    new = tv[i]
+    new = new.upper()
+    tv[i] = new
+    i += 1
+
+print(tv)
+
+# P107
+# http://tinyurl.com/z45g63j
+
+tv = ["GOT", "Narcos", "Vice"]
+for i, new in enumerate(tv):
+    new = tv[i]
+    new = new.upper()
+    tv[i] = new
+
+print(tv)
+
+# http://tinyurl.com/zcvgklh
+
+tv = ["GOT", "Narcos", "Vice"]
+coms = ["Arrested Development", "friends", "Always Sunny"]
+all_shows = []
+
+for show in tv:
+    show = show.upper()
+    all_shows.append(show)
+
+for show in coms:
+    show = show.upper(show)
+
+print(all_shows)
