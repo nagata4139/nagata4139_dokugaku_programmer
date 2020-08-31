@@ -87,3 +87,8 @@ print("Happy New Year!")
 
 while True:
     print("Hello World!")
+
+# http://tinyurl.com/zrdh88c
+
+for i in range(0, 100):
+    print(i)
