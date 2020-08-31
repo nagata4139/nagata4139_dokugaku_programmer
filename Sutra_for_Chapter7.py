@@ -62,6 +62,28 @@ for show in tv:
     all_shows.append(show)
 
 for show in coms:
-    show = show.upper(show)
+    show = show.upper()
+    all_shows.append(show)
 
 print(all_shows)
+
+# P108
+# http://tinyurl.com/hh5t8rw
+
+for i in range(1, 11):
+    print(i)
+
+# P109
+# http://tinyurl.com/j2gwcy
+
+x = 10
+while x > 0:
+    print("{}".format(x))
+    x -= 1
+print("Happy New Year!")
+
+# P110
+# http://tinyurl.com/hcwvfk8
+
+While True:
+    print("Hello World!")
