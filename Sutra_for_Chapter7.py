@@ -131,10 +131,21 @@ while i <= 5:
     print(i)
     i += 1
 
+# P113
 # http://tinyurl.com/gqjxjtq
 
-for i in range("1, 3"):
+for i in range(1, 3):
     print(i)
     for letter in ["a", "b", "c"]:
         print(letter)
 
+# P114
+
+list1 = [1, 2, 3, 4]
+list2 = [5, 6, 7, 8]
+added = []
+for i in list1:
+    for j in list2:
+        added.append(i + j)
+
+print(added)
