@@ -92,3 +92,55 @@ print(orl.weight)
 print(orl.color)
 
 # P153
+# http://tinyurl.com/jrmxlmo
+
+class Orange:
+    def __init__(self, w, c):
+        self.weight = w
+        self.color = c
+        print("Created!")
+
+
+or1 = Orange(4, "light orange")
+or2 = Orange(8, "dark orange")
+or3 = Orange(14, "yellow")
+
+# P154
+# http://tinyurl.com/zcp32pz
+
+class Orange:
+    def __init__(self, w, c):
+        """weight(重さ)はグラム"""
+        self.weight = w
+        self.color = c
+        self.color = 0
+        print("Created!")
+
+    def rot(self, days, temp):
+        """temp(温度)は摂氏"""
+        self.mold = days * temp
+
+orange = Orange(200, "orange")
+print(orange.mold)
+orange.rot(10,37)
+print(orange.mold)
+
+# P155
+# http://tinyurl.com/j28qoox
+
+class Rectandle:
+    def __init__(self):
+        self.width = w
+        self.len = l
+
+    def area(self):
+        return self.width * self.len
+
+    def change_size(selfself, w, l):
+        self.width = w
+        self.len = l
+
+rectangle = Rectangle(10, 20)
+print(rectangle.area())
+rectangle.change_size(20, 40)
+print(rectangle.area())
