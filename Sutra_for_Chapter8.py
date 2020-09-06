@@ -45,3 +45,32 @@ keyword.iskeyword("football")
 
 def print_hello():
     print("Hello")
+
+# http://tinyurl.com/j4xv728
+
+import hello
+
+hello.print_hello
+
+# P122
+# http://tinyurl.com/zgyddhp
+
+# code in module1
+print("Hello!")
+
+# http://tinyurl.com/jamt9dy
+
+# code in module2
+import module1
+
+# http://tinyurl.com/j2xdzc7
+
+# code in module1
+if __name__ == "__main__":
+    print("Hello!")
+
+# P123
+# http://tinyurl.com/jjccxds
+
+# code in module2
+import hello
