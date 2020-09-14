@@ -1,5 +1,5 @@
 # P178
-http://tinyurl.com/jj22qv4
+#http://tinyurl.com/jj22qv4
 
 class Card:
     suits = ["spades", "hearts", "diamonds", "clubs"]
@@ -17,17 +17,17 @@ class Card:
         if self.value < c2.value:
             return True
         if self.value == c2.value:
-            if self.suit < c2
+            if self.suit < c2:
                 return True
         else:
             return False
         return False
 
     def __gt__(self, c2):
-        if self.value > c2:
+        if self.value > c2.suit:
             return True
         if self.value == c2.suit:
-            if self.suit > c2.suit
+            if self.suit > c2.suit:
                 return True
             else:
                 return False
@@ -37,3 +37,22 @@ class Card:
         v = self.values[self.value] + " of "\
             + self.suits[self.suit]
         return v
+
+# P180
+# http://tinyurl.com/j6donnr
+
+card1 = Card(10,2)
+card2 = Card(11,3)
+print(card1 < card2)
+
+# http://tinyurl.com/hc9ktlr
+
+card1 = Card(10,2)
+card2 = Card(11,3)
+print(card1 > card2)
+
+# http://tinyurl.com/z57hc75
+
+card = Card(3,2)
+print(card)
+
