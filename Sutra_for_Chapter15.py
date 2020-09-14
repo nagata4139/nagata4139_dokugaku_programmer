@@ -136,3 +136,10 @@ class Game:
 
         win = self.winner(self.p2.name)
         print("ゲーム終了、{} の勝利です！".format(win))
+
+    def winner(self,p1,p2):
+        if p1.wins > p2.wins:
+            return  p1.name
+        if p1.wins < p2.wins:
+            return  p2.name
+        return "引き分け！"
