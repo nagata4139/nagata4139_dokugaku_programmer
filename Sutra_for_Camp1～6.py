@@ -43,3 +43,14 @@ print(["Hello",3])
 
 # ここはコメント文
 a = 1 # コードの右側にも書ける
+
+# リスト2.6 関数定義と呼び出し
+
+def add(a,b):
+    return a + b
+
+print(add(1,3))
+
+# リスト2.7 組み込み関数round
+
+print(round(10.4))
