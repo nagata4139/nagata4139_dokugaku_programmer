@@ -42,20 +42,20 @@ class Card:
 # P180
 # http://tinyurl.com/j6donnr
 
-card1 = Card(10,2)
-card2 = Card(11,3)
-print(card1 < card2)
+# card1 = Card(10,2)
+# card2 = Card(11,3)
+# print(card1 < card2)
 
 # http://tinyurl.com/hc9ktlr
 
-card1 = Card(10,2)
-card2 = Card(11,3)
-print(card1 > card2)
+# card1 = Card(10,2)
+# card2 = Card(11,3)
+# print(card1 > card2)
 
 # http://tinyurl.com/z57hc75
 
-card = Card(3,2)
-print(card)
+# card = Card(3,2)
+# print(card)
 
 # P181
 # Deck
@@ -80,9 +80,9 @@ class Deck:
 # P182
 # http://tinyurl.com/hsv5n6p
 
-deck = Deck()
-for card in deck.cards:
-    print(card)
+# deck = Deck()
+# for card in deck.cards:
+#     print(card)
 
 # Player
 # http://tinyurl.com/gwyrt2s
@@ -134,7 +134,7 @@ class Game:
                 self.p2.wins += 1
                 self.wins(self.p2.name)
 
-        win = self.winner(self.p2.name)
+        win = self.winner(self.p1,self.p2)
         print("ゲーム終了、{} の勝利です！".format(win))
 
     def winner(self,p1,p2):
@@ -143,3 +143,5 @@ class Game:
         if p1.wins < p2.wins:
             return  p2.name
         return "引き分け！"
+game = Game()
+game.play_game()
