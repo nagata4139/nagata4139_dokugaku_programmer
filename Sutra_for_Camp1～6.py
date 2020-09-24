@@ -38,3 +38,8 @@ print("Monty Python's Flying Circus")
 # リスト2.4 リスト
 
 print(["Hello",3])
+
+# リスト2.5 コメントの書き方
+
+# ここはコメント文
+a = 1 # コードの右側にも書ける
