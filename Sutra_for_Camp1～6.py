@@ -137,19 +137,116 @@ n1 = 100
 s1 = "hello"
 l1 = [1, 2, 3]
 print(type(n1))
-#<class 'int'>
 print(type(s1))
-#<class 'str'>
 print(type(l1))
-#<class 'list'>
 print(isinstance(n1, int))
-#True
 print(isinstance(s1, str))
-#True
 print(isinstance(l1, list))
-#True
+
 import collections.abc
 print(isinstance(s1, collections.abc.Sequence))
-#True
 print(isinstance(l1, collections.abc.Sequence))
-#True
+
+# リスト 3.1 整数型)
+
+print(2 + 2)
+
+print(3 - 8)
+
+print(6 * 9)
+
+print(8 / 2)
+
+print(5 % 2)
+
+print(5 ** 2
+)
+
+# リスト 3.2 整数型同士の商)
+
+print(10 / 3)
+
+print(10 / 4)
+
+print(-10 / 4)
+
+# リスト 3.3 //での割り算)
+
+print(10 // 3)
+
+print(10 // 4)
+
+print(-10 // 4)
+
+# リスト 3.4 浮動小数点型)
+
+print(5.0)
+
+print(5.0 + 5.2)
+
+print(10.2 + 8)
+
+# リスト 3.5 文字列型)
+
+print('Hello,world')
+
+print("Hello,world")
+
+# リスト 3.6 文字列中のエスケープ)
+
+print("I\'m Hiroki")
+
+print("Hello\nworld")
+
+# リスト 3.7 シングルクォートを含む文字列)
+
+print("I'm Hiroki")
+
+# リスト 3.8 三重クォート)
+
+""" foo
+... bar
+... baz
+... """
+
+# リスト 3.9 文字列の結合)
+
+print("Mt." + "Fuji")
+
+# リスト 3.10 文字列の繰り返し)
+
+print("spam" * 5)
+
+# リスト 3.11 文字列から1文字取り出し)
+
+print("python"[1])
+
+# リスト 3.12 文字列のスライス)
+
+print("python"[2:5])
+
+# リスト 3.13 先頭末尾からのスライス)
+
+print("python"[:3])
+
+print("python"[4:])
+
+# リスト 3.14 文字列長の取得)
+
+print(len("python"))
+
+# リスト 3.15 文字列中にある文字列が存在するかのチェック)
+
+print("t" in "python")
+
+print("k" in "python")
+
+print("th" in "python")
+
+# リスト 3.16 文字列の分割)
+
+print("pain-au-chocolat".split("-"))
+
+# リスト 3.17 文字列の結合
+
+print("-".join(["pain", "de", "campagne"]))
