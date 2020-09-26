@@ -71,20 +71,20 @@ print(fizzbuzz(4))
 #$ python3 fizzbuzz.py
 #4
 
-#　リスト2.11 fizzbuzz.pyの実行
+# リスト2.11 fizzbuzz.pyの実行
 
 #$ python3 fizzbuzz.py
 #can't open file 'fizzbuzz.py': [Errno 2] No such file or directory
 
-#　リスト2.12 for文と関数の実行
+# リスト2.12 for文と関数の実行
 
 def fizzbuzz(num):
     return num
 
-for num in range(1, 101):
+for num in range(1,101):
     print(fizzbuzz(num))
 
-#　リスト2.13 fizzbuzz.pyの実行
+# リスト2.13 fizzbuzz.pyの実行
 
 #$ python3 fizzbuzz.py
 #1
@@ -94,3 +94,62 @@ for num in range(1, 101):
 #.
 #100
 
+# リスト2.14 fizzbuzz関数を完成させる
+
+def fizzbuzz(num):
+    if num % 3 == 0 and num % 5 == 0:
+        return "FizzBuzz"
+    elif num % 3 == 0:
+        return "Fizz"
+    elif num % 5 == 0:
+        return "Buzz"
+    else:
+        return str(num)
+
+for num in range(1,101):
+    print(fizzbuzz(num))
+
+# リスト2.15 完成したfizzbuzz.pyの実行
+
+#$ python3 fizzbuzz.py
+#1
+#2
+#Fizz
+#4
+#Buzz
+#Fizz
+#7
+#8
+#Fizz
+#Buzz
+#11
+#Fizz
+#13
+#14
+#FizzBuzz
+#.
+#.
+#Buzz
+
+# リスト2.16 文字列とリストとそれらの型
+
+n1 = 100
+s1 = "hello"
+l1 = [1, 2, 3]
+print(type(n1))
+#<class 'int'>
+print(type(s1))
+#<class 'str'>
+print(type(l1))
+#<class 'list'>
+print(isinstance(n1, int))
+#True
+print(isinstance(s1, str))
+#True
+print(isinstance(l1, list))
+#True
+import collections.abc
+print(isinstance(s1, collections.abc.Sequence))
+#True
+print(isinstance(l1, collections.abc.Sequence))
+#True
