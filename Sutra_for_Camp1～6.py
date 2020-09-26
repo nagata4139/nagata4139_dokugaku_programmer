@@ -12,7 +12,7 @@
 #$ python3
 #Python 3.6.7 (v3.6.7:6ec5cf24b7, Oct 20 2018, 03:02:14)
 #[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin
-#Type "help", "copyright", "credits" or "license" for more information.
+#Type "help","copyright","credits" or "license" for more information.
 
 # リスト2.2 四則演算と代入
 print(2 + 2)
@@ -249,34 +249,34 @@ print("pain-au-chocolat".split("-"))
 
 # リスト 3.17 文字列の結合
 
-print("-".join(["pain", "de", "campagne"]))
+print("-".join(["pain","de","campagne"]))
 
 # リスト 4.1 リストの定義
 
-print(["spam", "egg", 0.5])
+print(["spam","egg", 0.5])
 
 # リスト 4.2 リストの基本的な使い方
 
-print(["spam", "ham"] + ["egg"])              # リストの結合
+print(["spam","ham"] + ["egg"])              # リストの結合
 
 print(["spam"] * 5)                           # リストの繰り返し
 
-print(["spam", "ham", "egg"][0] )             # リストの0番目を取得する
+print(["spam","ham","egg"][0] )             # リストの0番目を取得する
 
-print(["spam", "ham", "egg"][1:])             # リストのスライス(1番目以降)
+print(["spam","ham","egg"][1:])             # リストのスライス(1番目以降)
 
-print(len(["spam", "ham", "egg"]))            # リストの長さ
+print(len(["spam","ham","egg"]))            # リストの長さ
 
-print("ham" in ["spam", "ham", "egg"])        # リストに特定の文字列が含まれるか
+print("ham" in ["spam","ham","egg"])        # リストに特定の文字列が含まれるか
 
 # リスト 4.3 for文とリスト
 
-for animal in ["cat", "dog", "snake"]:
+for animal in ["cat","dog","snake"]:
     print(animal)
 
 # リスト 4.4 リストへの要素追加
 
-animals = ["cat", "dog", "snake"]
+animals = ["cat","dog","snake"]
 animals.append("elephant")
 print(animals)
 
@@ -292,27 +292,27 @@ print([len(animal) for animal in animals])
 
 # リスト 4.7 シーケンス型から複数変数への代入
 
-dog, cat = ["dog", "cat"]
+dog, cat = ["dog","cat"]
 print(dog)
 print(cat)
 
 # リスト 4.8 タプルの定義
 
-print(("spam", "ham", 4))
+print(("spam","ham", 4))
 
 # リスト 4.9 タプルの基本的な使い方
 
-print(("spam", "ham") + ("egg",))             # タプルの結合
+print(("spam","ham") + ("egg",))             # タプルの結合
 
 print(("spam",) * 5)                          # タプルの繰り返し
 
-print(("spam", "ham", "egg")[0])              # タプルの0番目を取得する
+print(("spam","ham","egg")[0])              # タプルの0番目を取得する
 
-print(("spam", "ham", "egg")[1:])             # タプルのスライス(1番目以降)
+print(("spam","ham","egg")[1:])             # タプルのスライス(1番目以降)
 
-print(len(("spam", "ham", "egg")))            # タプルの長さ
+print(len(("spam","ham","egg")))            # タプルの長さ
 
-print("ham" in ("spam", "ham", "egg"))        # タプルに特定の文字列が含まれるか
+print("ham" in ("spam","ham","egg"))        # タプルに特定の文字列が含まれるか
 
 # リスト 4.10 1要素のタプル
 
@@ -322,26 +322,26 @@ print(("spam"))
 
 # リスト 4.11 括弧を省略したタプル
 
-print("dog", "cat")
+print("dog","cat")
 
 # リスト 4.12 タプルを返す関数
 def head_splitter(seq):
     return seq[0], seq[1:]
 
-head, tail = head_splitter(["head", "body", "tail"])
+head, tail = head_splitter(["head","body","tail"])
 print(head)
 print(tail)
 
 # リスト 4.13 要素数の多いタプルを返す関数
 
 def bad_implementation():
-    return "username", "user_password", "user_id", "user_permission1", "user_permission2"
+    return "username","user_password","user_id","user_permission1","user_permission2"
 
 username, user_password, user_id, user_permission1, user_permission2 = bad_implementation()
 
 # リスト 4.14 辞書
 
-user_info = {"user_name": "taro", "last_name": "Yamada"}
+user_info = {"user_name": "taro","last_name": "Yamada"}
 print(user_info)
 
 # リスト 4.15 辞書からの値の取り出し
@@ -368,10 +368,59 @@ print("bio" in user_info)
 
 # リスト 4.19 存在しないキーへのget
 
-print(user_info.get('user_name'))
-bio = user_info.get('bio')
+print(user_info.get("user_name"))
+bio = user_info.get("bio")
 print(bio)
 
 # リスト 4.20 デフォルト値付きのget
 
-print(user_info.get('bio',''))
+print(user_info.get("bio",""))
+
+# リスト 4.21 辞書を使用したfor文
+
+user_info = {"user_name": "taro","last_name": "Yamada"}
+for key in user_info:
+    print(key)
+    print(user_info[key])
+
+# リスト 4.22 辞書内のすべてのキーと値を取得
+
+d = {"foo": "spam","bar": "ham"}
+print(d.items())
+
+# リスト 4.23 for文で辞書のキーと値を使う
+
+d = {"foo": "spam","bar": "ham"}
+for key, value in d.items():
+    print(key, value)
+
+# リスト 4.24 集合の定義
+
+print({"spam","ham"})
+print({"spam","spam","spam"})
+
+# リスト 4.25 集合への要素の追加
+
+unique_users = {"dog","cat"}
+unique_users.add("snake")
+print(unique_users)
+
+# リスト 4.26 集合によるユニーク数管理
+
+print(len(unique_users))
+unique_users.add("snake")
+unique_users.add("snake")
+unique_users.add("snake")
+print(len(unique_users))
+
+# リスト 4.27 2集合の積
+
+allowed_permissions = {"edit","view"}
+requested_permissions = {"view","delete"}
+print(allowed_permissions & requested_permissions)
+
+# リスト 4.28 2つの集合の和
+
+editor = {"edit","comment"}
+reviewer = {"comment","approve"}
+print(editor | reviewer)
