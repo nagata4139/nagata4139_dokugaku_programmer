@@ -54,3 +54,43 @@ print(add(1,3))
 # リスト2.7 組み込み関数round
 
 print(round(10.4))
+
+# リスト2.8 FizzBuzzの15までの回答
+
+#1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz
+
+# リスト2.9 fizzbuzz.py
+
+def fizzbuzz(num):
+    return  num
+
+print(fizzbuzz(4))
+
+# リスト2.10 fizzbuzz.pyの実行
+
+#$ python3 fizzbuzz.py
+#4
+
+#　リスト2.11 fizzbuzz.pyの実行
+
+#$ python3 fizzbuzz.py
+#can't open file 'fizzbuzz.py': [Errno 2] No such file or directory
+
+#　リスト2.12 for文と関数の実行
+
+def fizzbuzz(num):
+    return num
+
+for num in range(1, 101):
+    print(fizzbuzz(num))
+
+#　リスト2.13 fizzbuzz.pyの実行
+
+#$ python3 fizzbuzz.py
+#1
+#2
+#3
+#.
+#.
+#100
+
