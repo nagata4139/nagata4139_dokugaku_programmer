@@ -424,3 +424,94 @@ print(allowed_permissions & requested_permissions)
 editor = {"edit","comment"}
 reviewer = {"comment","approve"}
 print(editor | reviewer)
+
+# リスト 5.1 ファイルを開く
+
+f = open("pycamp.txt","w", encoding="utf-8")
+f
+
+# リスト 5.2 ファイルへ書き込み
+
+f.write("Hello")
+f.write(" Python\n")  # 改行を書き込むには \n を指定する
+f.write("こんにちはPython\n")  # 日本語も書き込み可能
+
+# リスト 5.4 ファイルを閉じる
+
+f.close()
+
+# リスト 5.5 ファイル内容の読み込み
+
+f = open("pycamp.txt","r", encoding="utf-8")
+f
+txt = f.read()
+print(txt)
+f.close()
+
+# リスト 5.5 ファイル内容の読み込み
+
+f = open("pycamp.txt", "r", encoding="utf-8")
+f
+txt = f.read()
+print(txt)
+f.close()
+
+# リスト 5.6 第2引数を省略してファイルを開く
+
+f = open("pycamp.txt", encoding="utf-8")
+f
+
+# with文でのファイルオープン
+with open("pycamp.txt", encoding="utf-8") as f:
+    txt = f.read()
+
+print(txt)
+
+# リスト 5.8 追記モードでファイルを開く
+
+f = open("pycamp.txt", "a", encoding="utf-8")
+f.write("こんにちは世界\n")
+
+
+# リスト 5.10 add()、sub()関数の定義（calc.py）
+
+#def add(a, b):
+#    return a + b
+
+
+#def sub(a, b):
+#    return a - b
+
+
+# リスト 5.11 calcのインポート
+
+import calc
+
+# リスト 5.12 別モジュールの関数を利用
+
+print(calc.add(1, 2))
+
+# リスト 5.13 関数のインポート
+
+from calc import add
+
+print(add(1, 2))
+
+# リスト 5.14 インポート対象に別名をつける¶
+
+import calc as c
+
+print(c.add(1, 2))
+
+# リスト 5.15 複数の対象をインポート
+
+from calc import add, sub
+
+print(add(1, 2))
+print(sub(2, 1))
+
+# リスト 5.16 括弧を使った複数のインポート
+from calc import (
+    add,
+    sub,
+)
