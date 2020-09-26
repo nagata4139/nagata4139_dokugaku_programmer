@@ -368,6 +368,10 @@ print("bio" in user_info)
 
 # リスト 4.19 存在しないキーへのget
 
-user_info.get('user_name')
+print(user_info.get('user_name'))
 bio = user_info.get('bio')
 print(bio)
+
+# リスト 4.20 デフォルト値付きのget
+
+print(user_info.get('bio',''))
