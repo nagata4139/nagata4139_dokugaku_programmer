@@ -142,3 +142,15 @@ def mad_libs(mls):
         print("引数mlsが無効です")
 
 mad_libs(text)
+
+# http://tinyurl.com/zkbumfj
+
+#$ echo I love $ | grep \\$
+
+# http://tinyurl.com/zy7pr4l
+
+import re
+
+line = "I love $"
+m = re.findall("\\$", line, re.IGNORECASE)
+print(m)
